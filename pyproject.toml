@@ -1,0 +1,27 @@
+# RAKSHAK - Sentinel Backend
+# Local-first cybersecurity sentinel for AMD Slingshot Hackathon 2026
+
+[project]
+name = "rakshak-sentinel"
+version = "1.0.0"
+description = "Local-first AI cybersecurity sentinel with hardware-agnostic NPU/GPU/CPU support"
+requires-python = ">=3.12"
+dependencies = [
+    "onnxruntime-directml>=1.18.0",
+    "psutil>=5.9.0",
+    "websockets>=12.0",
+    "numpy>=1.26.0",
+]
+
+[project.optional-dependencies]
+ai = [
+    "onnxruntime-genai-directml>=0.4.0",
+    "huggingface-hub>=0.23.0",
+]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.4.0",
+]
+
+[project.scripts]
+rakshak = "sentinel.server:main"
