@@ -2,7 +2,7 @@
 
 # RAKSHAK
 
-### AI-Powered Local-First Cybersecurity Sentinel
+### AI-Powered Local-First Cybersecurity Solution
 
 **Zero-day behavioral threat detection, on-device AI analysis, and human-approved auto-remediation — running entirely on your hardware. No cloud. No telemetry. Zero trust by design.**
 
