@@ -650,7 +650,7 @@ This is not a concept. It is a working system:
 
 **RAKSHAK** — *The Protector*
 
-Local-First. AI-Powered. Human-Approved.
+Local-First. AI-Powered. 
 
 Built with AMD hardware acceleration for the [Slingshot Hackathon 2026](https://amdslingshot.devpost.com/)
 
